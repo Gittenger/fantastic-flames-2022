@@ -1,0 +1,16 @@
+.footer {
+  svg {
+    width: 40px;
+
+    path {
+      transition: all 300ms;
+      fill: theme('colors.white');
+    }
+
+    &:hover {
+      path {
+        fill: theme('colors.red.300');
+      }
+    }
+  }
+}
