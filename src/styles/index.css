@@ -1,0 +1,46 @@
+@import './global.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Fira';
+    src: url('./assets/fonts/fira/FiraSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Fira';
+    src: url('./assets/fonts/fira/FiraSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Fira';
+    src: url('./assets/fonts/fira/FiraSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Game of Squids';
+    src: url('./assets/fonts/game-of-squids/game-of-squids.ttf')
+      format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Ethnocentric';
+    src: url('./assets/fonts/ethnocentric/ethnocentric-regular.ttf')
+      format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Toxigenesis';
+    src: url('./assets/fonts/toxigenesis/toxigenesis.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+}

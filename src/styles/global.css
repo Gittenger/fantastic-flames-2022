@@ -1,0 +1,12 @@
+html {
+  overflow-x: hidden;
+  width: 99.5vw;
+}
+
+#root {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+}
