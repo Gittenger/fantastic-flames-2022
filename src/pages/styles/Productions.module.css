@@ -1,0 +1,20 @@
+.hero {
+  width: 100%;
+  min-height: 800px;
+
+  img {
+    /* mask-image: url('../../assets/img/other/mask.png'); */
+    mask-image: 
+    /* radial-gradient(circle at center, black 0% 80%, transparent 90%), */ linear-gradient(
+        to left,
+        transparent 5%,
+        black 15% 90%,
+        transparent 95%
+      ),
+      linear-gradient(to bottom, transparent 5%, black 15% 90%, transparent 95%);
+    mask-size: 100%;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    mask-composite: intersect;
+  }
+}
