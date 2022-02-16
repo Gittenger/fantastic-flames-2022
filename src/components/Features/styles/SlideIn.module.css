@@ -1,0 +1,32 @@
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, 800px);
+  grid-row-gap: 4rem;
+  grid-column-gap: 1rem;
+
+  justify-content: center;
+  justify-items: center;
+
+  & > div {
+    height: 500px;
+    width: 600px;
+    background-color: red;
+
+    &:nth-child(1n) {
+      align-self: start;
+      justify-self: end;
+    }
+
+    &:nth-child(3n) {
+      align-self: start;
+      justify-self: end;
+    }
+
+    &:nth-child(2n) {
+      align-self: end;
+      justify-self: start;
+    }
+  }
+}
