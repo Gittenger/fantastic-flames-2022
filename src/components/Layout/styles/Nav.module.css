@@ -1,0 +1,15 @@
+.nav {
+  background-image: linear-gradient(
+    to right,
+    theme('colors.gray.900') 45%,
+    transparent 60%,
+    transparent 100%
+  );
+  li a {
+    transition: all 0.3s;
+
+    &:hover {
+      color: theme('colors.red.300');
+    }
+  }
+}
