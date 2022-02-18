@@ -66,14 +66,13 @@ const Productions = () => {
   }, [])
 
   return (
-    <main className="flex flex-col bg-gray-900/50 items-center justify-start pb-10 pt-20 relative z-10">
+    <main className="flex flex-col bg-gray-900/50 items-center justify-start pb-10 pt-20 relative z-10 fade-in">
       <div
         className={`${styles.hero} relative mb-44 mt-20 flex justify-center`}
       >
         <img className={`absolute`} src={ProductionsGif} alt="" />
       </div>
       <ImageGrid className="mb-40" />
-      <StyledCarousel images={images} />
     </main>
   )
 }
