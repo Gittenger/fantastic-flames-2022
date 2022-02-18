@@ -2,6 +2,11 @@ html {
   overflow-x: hidden;
   width: 99.5vw;
 }
+::selection {
+  background-color: theme('colors.red.300');
+  color: white;
+  text-shadow: none;
+}
 
 #root {
   width: 100%;
