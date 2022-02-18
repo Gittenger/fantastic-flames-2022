@@ -1,23 +1,38 @@
 .grid {
-  display: grid;
-  width: 85%;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-template-rows: 300px;
-  grid-auto-rows: 300px;
-  grid-gap: 1rem;
+  width: 100%;
 
-  & > div {
-    border: solid 1px dodgerblue;
+  & > div:first-child {
+    display: grid;
+    width: 85%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: 300px;
+    grid-auto-rows: 300px;
+    grid-gap: 1rem;
 
-    &:nth-child(odd) {
-      background-color: red;
-    }
+    & > a {
+      border: solid 2px theme('colors.red.300');
+      width: 100%;
+      overflow: hidden;
+      height: 100%;
+      border-radius: theme('borderRadius.3xl');
 
-    &:nth-child(even) {
-      background-color: blue;
-    }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        max-width: none;
+      }
 
-    /* &:nth-child(1) {
+      &:nth-child(odd) {
+        background-color: red;
+      }
+
+      &:nth-child(even) {
+        background-color: blue;
+      }
+
+      /* &:nth-child(1) {
       grid-column: 1 / span 3;
       grid-row: 1 / span 2;
     }
@@ -61,5 +76,6 @@
       grid-column: 1 / span 2;
       grid-row: 4 / span 3;
     } */
+    }
   }
 }
