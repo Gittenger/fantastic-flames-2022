@@ -3,7 +3,7 @@ import FacebookImg from './icons/facebook.svg?react'
 import InstagramImg from './icons/instagram.svg?react'
 import LogoImg from './other/logo-no-border.svg'
 import HeroImg from './other/hero.jpeg'
-import FireGif from './fire.gif'
+import HeroGif from './hero.gif'
 
 import GalleryOne from './gallery/gallery-1.jpeg'
 import GalleryTwo from './gallery/gallery-2.jpeg'
@@ -34,7 +34,7 @@ export const images = {
   other: {
     LogoImg,
     HeroImg,
-    FireGif,
+    HeroGif,
   },
   icons: {
     EmailImg,

@@ -7,7 +7,7 @@ import styles from './styles/Home.module.css'
 
 const HomePageContent = () => {
   const {
-    other: { HeroImg, FireGif },
+    other: { HeroImg, HeroGif },
   } = images
   const { Button, Footer, NameTest, SlideInGrid } = CIndex
   useTitle('Home')
@@ -24,7 +24,7 @@ const HomePageContent = () => {
         <div
           className={`${styles.hero} w-full relative mb-44 mt-20 flex justify-center`}
         >
-          <img className={`absolute`} src={FireGif} alt="" />
+          <img className={`absolute`} src={HeroGif} alt="" />
         </div>
         <div className="mt-14 mb-32 w-full flex flex-col justify-start items-center">
           <h1 className="font-heading text-red-300 text-3xl mb-8 uppercase">
