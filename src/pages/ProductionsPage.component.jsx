@@ -11,7 +11,7 @@ const Productions = () => {
   useTitle('Gallery')
 
   const {
-    other: { FireGif },
+    other: { ProductionsGif },
     gallery: {
       GalleryOne,
       GalleryTwo,
@@ -66,11 +66,11 @@ const Productions = () => {
   }, [])
 
   return (
-    <main className="flex flex-col items-center justify-start pb-10 pt-20">
+    <main className="flex flex-col bg-gray-900/50 items-center justify-start pb-10 pt-20 relative z-10">
       <div
         className={`${styles.hero} relative mb-44 mt-20 flex justify-center`}
       >
-        <img className={`absolute`} src={FireGif} alt="" />
+        <img className={`absolute`} src={ProductionsGif} alt="" />
       </div>
       <ImageGrid className="mb-40" />
       <StyledCarousel images={images} />
