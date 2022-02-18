@@ -5,7 +5,6 @@ import ImageGrid from './Features/ImageGrid.component.jsx'
 import NavList from './Layout/NavList.component.jsx'
 import NavMobile from './Layout/NavMobile.component.jsx'
 import SlideInGrid from './Features/SlideInGrid.component.jsx'
-import StyledCarousel from './Features/StyledCarousel.component.jsx'
 import TitleBar from './General/TitleBar.component.jsx'
 export const CIndex = {
   Button,
@@ -15,7 +14,6 @@ export const CIndex = {
   NavList,
   NavMobile,
   SlideInGrid,
-  StyledCarousel,
   TitleBar,
 }
 export default CIndex

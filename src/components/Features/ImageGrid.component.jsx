@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './styles/ImageGrid.module.css'
 import images from '../../assets/img/img-index.js'
 import { SRLWrapper } from 'simple-react-lightbox'
-// import Masonry from 'react-masonry-css'
 
 const ImageGrid = ({ className }) => {
   const {
