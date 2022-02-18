@@ -46,7 +46,7 @@ const HomePageContent = () => {
             temporibus odio mollitia magnam perspiciatis.
           </p>
         </div>
-        <SlideInGrid />
+        <SlideInGrid className={`mb-72`} />
       </div>
     </main>
   )

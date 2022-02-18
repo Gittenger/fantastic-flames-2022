@@ -2,31 +2,34 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(2, 800px);
-  grid-row-gap: 4rem;
-  grid-column-gap: 1rem;
+  grid-template-rows: repeat(4, 430px);
+  grid-column-gap: 2.5rem;
 
   justify-content: center;
   justify-items: center;
 
   & > div {
-    height: 500px;
-    width: 600px;
-    background-color: red;
+    height: 620px;
+    width: 700px;
+    background-color: theme('colors.red.800');
+    border-radius: theme('borderRadius.3xl');
 
-    &:nth-child(1n) {
-      align-self: start;
+    &:nth-child(odd) {
       justify-self: end;
+      grid-column: 1 / 2;
     }
 
-    &:nth-child(3n) {
-      align-self: start;
-      justify-self: end;
-    }
-
-    &:nth-child(2n) {
-      align-self: end;
+    &:nth-child(even) {
       justify-self: start;
+      grid-column: 2 / 3;
+    }
+
+    &:nth-child(1) {
+      grid-row: 1 / 3;
+    }
+
+    &:nth-child(2) {
+      grid-row: 2 / 4;
     }
   }
 }
