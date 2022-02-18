@@ -11,12 +11,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "process": "^0.11.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-gallery-carousel": "^0.2.9",
     "react-router-dom": "^6.2.1",
     "regenerator-runtime": "^0.13.9",
-    "sal.js": "^0.8.5"
+    "sal.js": "^0.8.5",
+    "simple-react-lightbox": "^3.6.9-0"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",
