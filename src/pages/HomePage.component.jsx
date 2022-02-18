@@ -22,7 +22,7 @@ const HomePageContent = () => {
     >
       <div className="w-full flex flex-col justify-center items-center space-x-4 pt-8">
         <div
-          className={`${styles.hero} w-full relative mb-20 mt-20 flex justify-center`}
+          className={`${styles.hero} fade-in w-full relative mb-20 mt-20 flex justify-center`}
         >
           <img className={`absolute`} src={HeroGif} alt="" />
         </div>
