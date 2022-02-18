@@ -2,7 +2,7 @@ import React from 'react'
 
 const TitleBar = () => {
   return (
-    <div className="p-5 w-full bg-gray-900">
+    <div className="p-5 w-full bg-gray-900 text-shadow-white">
       <h1 className="font-brand text-red-300 text-3xl">fantastic flames</h1>
     </div>
   )

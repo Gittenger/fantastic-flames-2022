@@ -8,7 +8,7 @@ const NavList = ({ className }) => {
     other: { LogoImg },
   } = images
   const navList =
-    'flex justify-start items-center py-3 space-x-20 font-nav absolute w-full'
+    'flex justify-start items-center py-3 space-x-20 font-nav absolute w-full text-shadow-red'
 
   return (
     <ul
