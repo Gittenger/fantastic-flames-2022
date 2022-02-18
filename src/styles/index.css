@@ -1,4 +1,5 @@
 @import './global.css';
+@import './keyframes.css';
 
 @tailwind base;
 @tailwind components;
