@@ -22,29 +22,24 @@ const HomePageContent = () => {
     >
       <div className="w-full flex flex-col justify-center items-center space-x-4 pt-8">
         <div
-          className={`${styles.hero} w-full relative mb-44 mt-20 flex justify-center`}
+          className={`${styles.hero} w-full relative mb-20 mt-20 flex justify-center`}
         >
           <img className={`absolute`} src={HeroGif} alt="" />
         </div>
-        <div className="mt-14 mb-32 w-full flex flex-col justify-start items-center">
+        <div className="mt-14 mb-20 w-full flex flex-col justify-start items-center">
           <h1 className="font-heading text-red-300 text-3xl mb-8 uppercase">
             Here's some rad heading text
           </h1>
-          <p className="w-2/3 px-44 font-body text-xl mb-16">
+          <p className="w-2/3 px-44 font-body text-xl mb-32 leading-relaxed text-center">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
             totam molestiae enim pariatur voluptatum voluptate beatae quae
             labore aspernatur rem molestias, officiis illo ipsum, doloribus
-            temporibus odio mollitia magnam perspiciatis.
+            temporibus odio mollitia magnam perspiciatis. Officiis illo ipsum,
+            doloribus temporibus odio mollitia magnam perspiciatis.
           </p>
-          <h1 className="font-heading text-red-300 text-3xl mb-8 uppercase">
-            Here's more...Looks cool?
+          <h1 className="font-heading text-red-300 text-3xl uppercase">
+            Prepare yourself...
           </h1>
-          <p className="w-2/3 px-44 font-body text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
-            totam molestiae enim pariatur voluptatum voluptate beatae quae
-            labore aspernatur rem molestias, officiis illo ipsum, doloribus
-            temporibus odio mollitia magnam perspiciatis.
-          </p>
         </div>
         <SlideInGrid className={`mb-72`} />
       </div>
