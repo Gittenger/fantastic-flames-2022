@@ -69,6 +69,9 @@ module.exports = {
       react: path.join(__dirname, 'node_modules', 'react'),
     },
     extensions: ['', '.js', '.jsx'],
+    fallback: {
+      process: require.resolve('process/browser'),
+    },
   },
   module: {
     rules: [
