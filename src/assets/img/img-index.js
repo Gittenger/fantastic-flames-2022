@@ -19,7 +19,20 @@ import GalleryNine from './gallery/gallery-9.jpeg'
 import GalleryTen from './gallery/gallery-10.jpeg'
 import GalleryEleven from './gallery/gallery-11.jpeg'
 
+import ProductionsOne from './productions/productions-1.jpg'
+import ProductionsTwo from './productions/productions-2.jpg'
+import ProductionsThree from './productions/productions-3.jpg'
+import ProductionsFour from './productions/productions-4.jpg'
+import ProductionsFive from './productions/productions-5.jpg'
+
 export const images = {
+  productions: {
+    ProductionsOne,
+    ProductionsTwo,
+    ProductionsThree,
+    ProductionsFour,
+    ProductionsFive,
+  },
   gallery: {
     GalleryOne,
     GalleryTwo,
