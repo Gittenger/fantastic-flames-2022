@@ -18,7 +18,7 @@ const HomePageContent = () => {
 
   return (
     <main
-      className={`${styles.main} flex flex-col items-center justify-start pb-10`}
+      className={`${styles.main} bg-gray-900/50 flex flex-col items-center justify-start pb-10 relative z-10`}
     >
       <div className="w-full flex flex-col justify-center items-center space-x-4 pt-8">
         <div

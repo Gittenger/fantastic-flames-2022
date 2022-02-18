@@ -4,6 +4,7 @@ import InstagramImg from './icons/instagram.svg?react'
 import LogoImg from './other/logo-no-border.svg'
 import HeroImg from './other/hero.jpeg'
 import HeroGif from './hero.gif'
+import FireBgGif from './fire-bg.gif'
 
 import GalleryOne from './gallery/gallery-1.jpeg'
 import GalleryTwo from './gallery/gallery-2.jpeg'
@@ -35,6 +36,7 @@ export const images = {
     LogoImg,
     HeroImg,
     HeroGif,
+    FireBgGif,
   },
   icons: {
     EmailImg,
